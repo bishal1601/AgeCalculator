@@ -1,0 +1,16 @@
+﻿@model AgeVm
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <form method="post">
+        Find your age<br/>
+        Full Name : <input type="text" asp-for="FullName" /><br/>
+        Date Of Birth : <input type="date" asp-for="BirthDate" /><br/>
+        <button type="submit">Check</button>
+        
+    </form>
+    
+
+</div>
